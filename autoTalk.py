@@ -9,6 +9,7 @@ inp.setformat(alsaaudio.PCM_FORMAT_S16_LE)
 
 inp.setperiodsize(160)
 
+pg.FAILSAFE = False
 
 
 def press(keys, presses=1):
