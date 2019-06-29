@@ -24,7 +24,7 @@ def press(keys, presses=1):
                 lowerKeys.append(s)
     for i in range(presses):
         for k in keys:
-            pg._failSafeCheck()
+            #pg._failSafeCheck()
             pg.platformModule._keyDown(k)
             pg.platformModule._keyUp(k)
 
