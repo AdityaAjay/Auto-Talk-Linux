@@ -36,5 +36,5 @@ while True:
         val = audioop.max(data, 2)
         if val > 17000:
             for j in range(50):
-                press('k')
+                press('k') #change 'k' to any value. 'k' is default mic key in Counter Strike: GO
     time.sleep(.001)
